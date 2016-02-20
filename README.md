@@ -1,5 +1,4 @@
 # swagger-lint
-
 A fully pluggable tool for identifying and reporting on patterns in your
 [Swagger][swagger] documents.
 
@@ -9,18 +8,11 @@ npm install swagger-lint -g
 ```
 
 # Usage
-Run `slint` against a swagger file, does YAML too!
+Run `slint` against any swagger file, json or yaml, remote or local.
 ``` sh
 slint path/to/swagger.json
-Found 0 error(s)
-Found 0 warning(s)
-```
-
-Will validate remote swagger files as well!
-``` sh
+slint path/to/swagger.yaml
 slint http://petstore.swagger.io/v2/swagger.json
-Found 0 error(s)
-Found 0 warning(s)
 ```
 
 # Features
@@ -33,8 +25,9 @@ slint -h
 
   Options:
 
-    -h, --help     output usage information
-    -V, --version  output the version number
+    -h, --help             output usage information
+    -V, --version          output the version number
+    -H, --header <header>  http headers to include for remote files
 ```
 
 # TODO
