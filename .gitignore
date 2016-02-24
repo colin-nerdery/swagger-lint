@@ -5,3 +5,4 @@ bower_components/
 coverage/
 .projectile
 .tern-project
+out/

@@ -1,0 +1,23 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Simple API",
+    "version": "1.0.0"
+  },
+  "definitions": {
+    "Unused": {
+
+    }
+  },
+  "paths": {
+    "/": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  }
+}
