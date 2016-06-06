@@ -33,7 +33,7 @@
   "homepage": "https://github.com/whitlockjc/swagger-lint#readme",
   "dependencies": {
     "commander": "~2.9.0",
-    "sway": "git+ssh://git@github.com:apigee-127/sway.git",
+    "sway": "apigee-127/sway",
     "colors": "~1.1.2",
     "lodash": "~4.5.0"
   },
